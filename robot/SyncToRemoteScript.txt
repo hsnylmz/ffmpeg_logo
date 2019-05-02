@@ -1,0 +1,7 @@
+#Resources Can be Found here - https://winscp.net/eng/docs/scripting
+
+option batch abort
+option confirm off
+open ftp://izmirftp:Izmir2014@212.175.166.122 
+synchronize remote D:\logo\logolu\ /TRT_IZMIR/Transfer/
+exit
